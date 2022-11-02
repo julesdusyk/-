@@ -1,0 +1,77 @@
+h1 {
+    text-align: center;
+    font-size: 45px;
+    color: rgb(159, 120, 72);
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(159, 120, 72);
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
+  #food {
+    border-collapse: collapse;
+    width: 70%;
+  }
+  
+  #food td, #fodd th {
+    border: 1px solid #ddd;
+    padding: 3px;
+  }
+  
+  #food tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #food tr:hover {background-color: #ddd;}
+  
+  #food th {
+    padding-top: 6px;
+    padding-bottom: 6px;
+    text-align: left;
+    background-color: rgb(159, 120, 72);
+    color: white;
+  }
+
+  .column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+  }
+
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  iframe {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
